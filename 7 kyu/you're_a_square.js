@@ -1,5 +1,5 @@
-/*
-Given an integral number, determine if it's a square number.
+
+/*Given an integral number, determine if it's a square number.
 
 Examples:
 -1  =>  false
@@ -7,8 +7,7 @@ Examples:
  3  =>  false
  4  =>  true
 25  =>  true
-26  =>  false
-*/
+26  =>  false */
 
 
 var isSquare = function (n) {
@@ -20,5 +19,8 @@ var isSquare = function (n) {
         return Number.isInteger(Math.sqrt(n))
     }  
 }
-console.log(isSquare(81))
+
+
+
+
 

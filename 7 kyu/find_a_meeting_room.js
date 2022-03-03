@@ -1,3 +1,4 @@
+
 /* In this kata, you will be given an array. Each value represents a meeting room. Your job? Find the first empty one and return its index (N.B. There may be more than one empty room in some test cases).
 
 // 'X' --> busy
@@ -22,4 +23,5 @@ function meeting(x){
     var idx = x.indexOf("O");
     return idx === -1 ? "None available!": idx
 }
-console.log(meeting(['X','X','O','X','X']))
+console.log(meeting(['X', 'X', 'O', 'X', 'X']))
+

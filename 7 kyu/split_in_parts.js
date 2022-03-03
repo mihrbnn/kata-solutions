@@ -1,3 +1,4 @@
+
 /*The aim of this challenge is to split a given string into different strings of equal size (note size of strings is passed to the method)
 
 Example:
@@ -15,5 +16,7 @@ var splitInParts = function (s, partLength) {
     return str
 } 
 console.log(splitInParts("alsjflf",2))
+
+
 
 

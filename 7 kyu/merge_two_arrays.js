@@ -17,4 +17,6 @@ function mergeArrays(a, b) {
     }
   
     return result;
-  }
+}
+
+  
