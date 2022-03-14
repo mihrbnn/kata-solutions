@@ -16,3 +16,10 @@ write a function that when executed as findAdmin(list1, 'JavaScript') returns on
   { firstName: 'Jing', lastName: 'X.', country: 'China', continent: 'Asia', age: 34, language: 'JavaScript', githubAdmin: 'yes' }
 ]
 */
+
+function findAdmin(list, lang) {
+  const control = list.filter(
+    (item) => item.language === lang && item.githubAdmin === "yes"
+  );
+  return control;
+}
